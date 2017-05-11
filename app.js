@@ -9,7 +9,7 @@ $(document).ready(function() {
     })
 
     $box.on('dblclick', function() {
-        $(this).removeClass(color);
+        $(this).removeClass(colors);
     })
 
     $reset.on('click', function() {
